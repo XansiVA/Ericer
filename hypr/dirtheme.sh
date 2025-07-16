@@ -36,10 +36,6 @@ if [[ -f "$CLONE_DIR/wallpaper.png" ]]; then
     swww img "$HOME/Pictures/Wallpapers/current.png"
 fi
 
-
-
-
-
 # Reload Hyprland + Waybar
 echo "🔁 Restarting Waybar..."
 hyprctl reload
